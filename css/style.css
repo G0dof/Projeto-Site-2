@@ -1,0 +1,163 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Geneva, Tahoma, sans-serif;
+    width: 1024px;
+    margin: 15px auto;
+}
+
+/* Cabeçalho e Navegação */
+
+.logo img {
+    float: left;
+    margin-left: 160px;
+    margin-top: 5px;
+}
+
+#menu {
+    background-color: #081a24;
+}
+
+#menu ul {
+    margin: 0px 30px;
+    text-align: right;
+}
+
+#menu li {
+    font-size: 10pt;
+    padding: 15px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    list-style: none;
+    display: inline-block;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #1f5458;
+    transition: color 1s;
+}
+
+#menu a:visited {
+    color: #1f5458;
+}
+
+#menu a:active {
+    color: #1f5458;
+}
+
+#menu a:link {
+    color: #1f5458;
+}
+
+#menu a:hover {
+    color: #ccc;
+}
+
+.hero-banner {
+    background-image: url(../imagens/topo.jpg);
+    background-size: cover;
+    height: 488px;
+}
+
+/* Main - Contéudo 1*/
+
+.content-section-1 {
+    text-align: center;
+    padding: 50px;
+    width: 820px;
+    margin: 0px auto;
+    color: #20201E;
+}
+
+.content-section-1 article {
+    padding-bottom: 60px;
+}
+
+.content-header-1 {
+    font-size: 25pt;
+}
+
+.content-section-1 p {
+    line-height: 2;
+    margin: 0px;
+}
+
+.cards {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    line-height: 0.7;
+}
+
+.cards h2 {
+    color: #555;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 14pt;
+}
+
+.cards h3 {
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11pt;
+    color: #999;
+}
+
+
+/* Main - Contéudo 2*/
+
+.content-section-2 {
+    color: #fff;
+    background-color: #003D52;
+    background-image: url(imagens/bg_detalhe.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+
+.content-section-2 p {
+    width: 430px;
+}
+
+.content-header-2 h1 {
+    margin: 0px;
+    font-size: 35pt;
+    text-transform: uppercase;
+}
+
+
+/* Contato */
+
+#contact {
+    padding: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #013E51;
+}
+
+
+/* Rodapé */
+
+#rodape {
+    height: 60px;
+    background-color: #081A24;
+}
+
+#rodape p {
+    margin: 0px;
+    letter-spacing: 5px;
+    color: #366D83;
+    text-align: center;
+    line-height: 60px;
+}
+
+
+/* Frescurinhas */
+
+::-webkit-scrollbar {
+    background-color: #003446;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #20201E;
+}
